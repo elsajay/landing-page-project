@@ -21,11 +21,13 @@ header ,
 }
 
 header { 
+    height: 50px; 
     display: flex; 
     justify-content: space-between;
 }
 
 .introduction {
+    height: 30em; 
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -92,6 +94,7 @@ button {
  .main-content { 
     padding: 2em; 
     text-align: center; 
+    height: 60%;
     
  }
 
@@ -118,6 +121,22 @@ img {
 
 }
 
-quote { 
-    background-color: 
+.quote { 
+    background-color: #E5E7EB;
+    height: 10em; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 50px;
+    font-style: italic; 
+    flex-direction: column;
+    padding: 0px 120px; 
+    
+
+}
+#Thor { 
+    font-weight: 900;
+    margin-left: auto;
+
 }
