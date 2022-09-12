@@ -28,7 +28,7 @@ header {
 }
 
 .introduction {
-    height: 40em; 
+    height: 80vh; 
     display: flex;
     justify-content: center; 
     align-items: center;
